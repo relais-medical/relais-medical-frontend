@@ -1,3 +1,5 @@
 [build]
 command = "npm run build"
-publishDirectory = "dist"
+
+[deploy]
+startCommand = "npx serve dist -p 3000"
